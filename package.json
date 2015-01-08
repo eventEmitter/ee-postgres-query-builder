@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-postgres-query-builder"
     , "description"                 : "SQL query builder for postgres. Used by the ee-orm package"
-    , "version"                     : "0.1.1"
+    , "version"                     : "0.2.0"
     , "homepage"                    : "https://github.com/eventEmitter/ee-postgres-query-builder"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
@@ -20,7 +20,7 @@
         , "ee-event-emitter"        : "0.1.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
-        , "ee-query-builder"        : "^0.3.1"
+        , "ee-query-builder"        : "0.4.0"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
