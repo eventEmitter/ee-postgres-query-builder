@@ -1,26 +1,25 @@
 {
-      "name"                        : "ee-postgres-query-builder"
+      "name"                        : "related-postgres-query-builder"
     , "description"                 : "SQL query builder for postgres. Used by the ee-orm package"
-    , "version"                     : "0.4.0"
-    , "homepage"                    : "https://github.com/eventEmitter/ee-postgres-query-builder"
-    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
+    , "version"                     : "0.5.0"
+    , "homepage"                    : "https://github.com/eventEmitter/related-postgres-query-builder"
+    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "licence"                     : "mit"
     , "repository": {
-          "url"                     : "https://github.com/eventEmitter/ee-postgres-query-builder.git"
+          "url"                     : "https://github.com/eventEmitter/related-postgres-query-builder.git"
         , "type"                    : "git"
     }
     , "engines": {
         "node"                      : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/ee-postgres-query-builder/issues"
+        "url"                       : "https://github.com/eventEmitter/related-postgres-query-builder/issues"
     }
     , "dependencies": {
           "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
-        , "ee-query-builder"        : "0.5.x"
+        , "related-query-builder"   : "0.6.x"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"

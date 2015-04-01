@@ -1,7 +1,3 @@
-# ee-postgres-query-builder
+# related-postgres-query-builder
 
-SQL query builder for postgres. Used by the ee-orm package.
-
-## installation
-
-    npm install ee-postgres-query-builder
+Builds Postgres SQL queries for the [Related ORM](https://www.npmjs.com/package/related).
