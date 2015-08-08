@@ -1,7 +1,7 @@
 {
       "name"                        : "related-postgres-query-builder"
     , "description"                 : "SQL query builder for postgres. Used by the ee-orm package"
-    , "version"                     : "0.5.1"
+    , "version"                     : "0.5.2"
     , "homepage"                    : "https://github.com/eventEmitter/related-postgres-query-builder"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "license"                     : "MIT"
@@ -10,7 +10,7 @@
         , "type"                    : "git"
     }
     , "engines": {
-        "node"                      : ">=01.12"
+        "node"                      : ">=0.12"
     }
     , "bugs": {
         "url"                       : "https://github.com/eventEmitter/related-postgres-query-builder/issues"
