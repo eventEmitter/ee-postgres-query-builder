@@ -17,12 +17,12 @@
     }
     , "dependencies": {
           "ee-class"                : "1.x"
-        , "ee-types"                : "1.x"
+        , "ee-types"                : "^2.1.2"
         , "related-query-builder"   : "2.x"
-        , "ee-log"                  : "1.x"
+        , "ee-log"                  : "^2.0.2"
     }
     , "devDependencies": {
-          "mocha"                   : "2.x"
+          "mocha"                   : "^3.3.0"
     }
     , "optionalDependencies": {}
     , "scripts": {
