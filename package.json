@@ -1,7 +1,7 @@
 {
       "name": "related-postgres-query-builder",
       "description": "SQL query builder for postgres. Used by the ee-orm package",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "homepage": "https://github.com/eventEmitter/related-postgres-query-builder",
       "author": "Lina van der Weg <lina@vanderweg.ch>",
       "license": "MIT",
