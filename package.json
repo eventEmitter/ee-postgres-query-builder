@@ -1,31 +1,31 @@
 {
-      "name": "related-postgres-query-builder",
-      "description": "SQL query builder for postgres. Used by the ee-orm package",
-      "version": "2.0.3",
-      "homepage": "https://github.com/eventEmitter/related-postgres-query-builder",
-      "author": "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)",
-      "license": "MIT",
-      "repository": {
-            "url": "https://github.com/eventEmitter/related-postgres-query-builder.git",
-            "type": "git"
-      },
-      "engines": {
-            "node": ">=0.12"
-      },
-      "bugs": {
-            "url": "https://github.com/eventEmitter/related-postgres-query-builder/issues"
-      },
-      "dependencies": {
-            "ee-class": "1.x",
-            "ee-types": "1.x",
-            "related-query-builder": "2.x",
-            "ee-log": "0.3.x"
-      },
-      "devDependencies": {
-            "mocha": "2.x"
-      },
-      "optionalDependencies": {},
-      "scripts": {
-            "test": "./node_modules/mocha/bin/mocha --reporter spec"
-      }
+      "name"                        : "related-postgres-query-builder"
+    , "description"                 : "SQL query builder for postgres. Used by the ee-orm package"
+    , "version"                     : "2.0.3"
+    , "homepage"                    : "https://github.com/eventEmitter/related-postgres-query-builder"
+    , "author"                      : "Lina van der Weg <lina@vanderweg.ch>"
+    , "license"                     : "MIT"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/related-postgres-query-builder.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=6"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/related-postgres-query-builder/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.x"
+        , "ee-types"                : "1.x"
+        , "related-query-builder"   : "2.x"
+        , "ee-log"                  : "1.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "2.x"
+    }
+    , "optionalDependencies": {}
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
 }
